@@ -9,6 +9,10 @@ body{
     background-color: rgba(220, 234, 248, 0.696);
 }
 
+main{
+    margin-top: 40px;
+}
+
 /* BANNER */
 #banner{
     height: fit-content;
@@ -28,3 +32,30 @@ span.logo{
 }
 
 /* FINE BANNER */
+
+/* BUTTONBAR */
+#add-task{
+    color: white;
+    background-color: #19B5FE;
+    border: 2px solid #16a4e7;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+#add-section{
+    color: lightgray;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid lightgray;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.buttonbar-container{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 5% 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* FINE FUNZIONI ADD */
