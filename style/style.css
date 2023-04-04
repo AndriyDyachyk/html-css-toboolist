@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+    color: rgb(24, 22, 22);
 }
 
 body{
@@ -59,3 +60,26 @@ span.logo{
 }
 
 /* FINE FUNZIONI ADD */
+
+/* STILI LISTA */ 
+
+ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+h2::before{
+    content: "\23F7";
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.check{
+    font-size: 10px;
+    font-weight: bolder;
+    color: limegreen;
+    padding: 0px 4px;
+    border: 1.5px solid limegreen;
+    border-radius: 50%;
+    margin-right: 10px;
+}
