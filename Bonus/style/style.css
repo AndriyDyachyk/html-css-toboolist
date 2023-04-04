@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(24, 22, 22);
+}
+
+li{
+    line-height: 2.5;
+}
+
+ul>li:first-child{
+    line-height: 1;
+}
+
+ul{
+    padding: 15px 0px;
+}
+
+
+body{
+    background-color: rgba(220, 234, 248, 0.696);
+}
+
+main{
+    margin-top: 40px;
+}
+
+.buttonbar-container, .main-container{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 5% 10px;
+}
+
+.main-container{
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* BANNER */
+#banner{
+    height: fit-content;
+    background-color: white;
+    padding: 10px 0px 5px 20px;
+}
+
+img.logo{
+    width: 50px;
+}
+
+span.logo{
+    font-weight: 700;
+    font-size: 2.5em;
+    vertical-align: text-bottom ;
+    color: rgb(16, 16, 44);
+}
+
+/* FINE BANNER */
+
+/* BUTTONBAR */
+#add-task, #add-section:hover{
+    color: white;
+    background-color: #19B5FE;
+    border-color: #16a4e7;
+}
+
+#add-task:hover, #add-section:hover{
+    scale: 110%;
+    transition: 1s;
+}
+
+button {  
+    line-height: 1;
+    padding: 3px 10px;
+    margin: 0.5em;
+    transition: 0.25s;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+
+#add-section, #add-task:hover{
+    color: lightgray;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: lightgray;
+
+}
+
+.buttonbar-container{
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 3px;
+}
+
+/* FINE FUNZIONI ADD */
+
+/* STILI LISTA */ 
+
+ul{
+    list-style: none;
+}
+
+h2::before{
+    content: "\23F7";
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+/* FINE LISTA */
+
+/* CHECK E CROSS */
+.check, .cross{
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 0px 4px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cross{
+    color: red;
+    border-color: red;
+}
+
+.check{
+    color: limegreen;
+    border-color: limegreen;
+}
+/* FINE CHECK E CROSS */
+
+/* TASK TAGS */
+
+.editorial, .goals, .recruiting, .mobile, .website, .sales{
+    color: white;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.editorial{
+    background-color: #19B5FE;
+}
+
+.goals{
+    background-color: #8E44AD;
+}
+
+.recruiting{
+    background-color: #03A678;
+}
+
+.mobile{
+    background-color: #FFA631;
+}
+
+.website{
+    background-color: #DB5A6B;
+}
+
+.sales{
+    background-color: #7A942E;
+}
+
+/* FINE TAGS */
+
